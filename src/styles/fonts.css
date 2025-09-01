@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'NewYork';
+  src: url('/assets/fonts/NewYork PERSONAL USE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CocoGothic';
+  src: url('/assets/fonts/CocoGothic-Bold_trial.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JaneAusten';
+  src: url('/assets/fonts/JaneAust.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
