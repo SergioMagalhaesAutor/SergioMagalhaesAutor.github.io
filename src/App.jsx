@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import BooksSection from './components/BooksSection';
 import AboutSection from './components/AboutSection';
+import PoetrySection from './components/PoetrySection';
 import BooksAvailable from './components/BooksAvailable';
 import Footer from './components/Footer';
 import './styles/fonts.css';
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <BooksSection />
       <AboutSection />
+      <PoetrySection />
       <motion.div 
         className="quote-section"
         initial={{ opacity: 0, y: 50 }}

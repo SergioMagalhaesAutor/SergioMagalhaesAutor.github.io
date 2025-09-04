@@ -47,6 +47,9 @@ const Header = () => {
                 <a href="#livros" onClick={(e) => handleSmoothScroll(e, 'livros')}>LIVROS</a>
               </motion.li>
               <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
+                <a href="#poesias" onClick={(e) => handleSmoothScroll(e, 'poesias')}>POESIAS</a>
+              </motion.li>
+              <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
                 <a href="#contato" onClick={(e) => handleSmoothScroll(e, 'contato')}>CONTATO</a>
               </motion.li>
             </ul>
